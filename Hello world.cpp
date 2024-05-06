@@ -9,7 +9,10 @@ int main()
     string str;
     cin >> str;
     if (str == "hello") {
-        cout << "Hello World!";
+        cout << "Hello!";
+    }
+    else if (str == "bye") {
+        cout << "bye bye";
     }
 }
 
